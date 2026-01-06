@@ -1,51 +1,22 @@
-# Praktikum2-Penjualan
-body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-}
+# Sistem Informasi Penjualan  
+**Framework: CodeIgniter 3**
 
-.scene {
-    width: 300px;
-    height: 200px;
-    perspective: 800px;
-}
+## Deskripsi
+Sistem Informasi Penjualan ini merupakan aplikasi berbasis web yang dikembangkan menggunakan framework **CodeIgniter 3 (CI3)**. Aplikasi ini bertujuan untuk membantu proses pengelolaan data penjualan secara terkomputerisasi agar lebih efektif dan efisien. Sistem ini digunakan untuk mengelola data produk, transaksi penjualan, serta laporan penjualan.
 
-.card {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.8s;
-}
+## Teknologi yang Digunakan
+- PHP 7.x
+- CodeIgniter 3
+- MySQL / MariaDB
+- HTML, CSS, JavaScript
+- Bootstrap
+- XAMPP
 
-.scene:hover .card {
-    transform: rotateY(180deg);
-}
+## Fitur Utama
+- Manajemen data produk
+- Manajemen data pelanggan
+- Transaksi penjualan
+- Laporan penjualan
+- CRUD (Create, Read, Update, Delete) data
 
-.card__face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    backface-visibility: hidden;
-    color: white;
-}
-
-.card__face--front {
-    background: #00c6ff;
-}
-
-.card__face--back {
-    background: #ff416c;
-    transform: rotateY(180deg);
-}
-
+## Struktur Folder
